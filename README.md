@@ -14,7 +14,7 @@
  
 ### Introduction
       
-   **"[Graph API] [website]"** is a standard Java library that provides various methods and classes that help users to implement graphs. In this package we cover the basics of [Graph Theory] [website1] by providing useful helper functions and important algorithms. Keep reading this guide to learn more about the different operations that can be performed using the API. "Graph API" has a very practical functionallity and it is very easy to use it in different applications. Clients can use the "Graph API" to program diverse tools with strong performance. In this library we tried to combine all essential ideas of Graph Theory so all the users can easily implement their applications using this API. 
+   GraphAPI is a standard Java library that provides various methods and classes that help users to implement graphs. In this package we cover the basics of [Graph Theory] [website1] by providing useful helper functions and important algorithms. Keep reading this guide to learn more about the different operations that can be performed using the API. "Graph API" has a very practical functionallity and it is very easy to use it in different applications. Clients can use the "Graph API" to program diverse tools with strong performance. In this library we tried to combine all essential ideas of Graph Theory so all the users can easily implement their applications using this API. 
     
    This package represents a general [unlabeled graph] [website2] whose vertices are denoted by positive integers.  A graph may be directed or undirected.  For an undirected graph, outgoing and incoming edges are the same. Graphs may have self edges, but no multi-edges (edges with the same end points). Edges in a Graph are ordered by the sequence in which they were added. If you are not familiar with Graph Theory, we strongly recommend to run through an introductory tutorial before using this package. You can find detailed information about this in "Full Documentation" section. 
  
@@ -278,17 +278,6 @@ c. A class that generates the algorithm of Shortest Path.
         private HashMap<Integer, Integer> weightData;
     }
 ```
-### Like it / Hate it.
-
-  This API has been written by [Rafayel Mkrtchyan] [profile] at University of California, Berkeley in December, 2014. I would like to thank my professors Paul Hilfinger and Josh Hug, who teach "Data Structures" course at UC Berkeley, for providing fundamental assistance in completing this project. For additional comments and suggestions you can contact rafamian@berkeley.edu. I don't claim to be perfect so if you find a bug in this library, please send me an email preferably with a test that revealed that error so that I know what I need to fix.
- 
-### Projects that used this API
-
-   Here is the list of some open-source projects that used this API:
-
-| **[Topographic Maps] [web1]**     | **[Your Repo Here] [setup]**     | **[Your Repo Here] [roadmap]**           | **[Your Repo Here] [contributing]**           | **[Your Repo Here] [web5link]**           |
-|-------------------------------------|-------------------------------|-----------------------------------|---------------------------------------------|-------------------------------|
-| [![i1] [techdocs-image]] [techdocs] | [![i2] [setup-image]] [setup] | [![i3] [roadmap-image]] [roadmap] | [![i4] [contributing-image]] [contributing] | [![i5] [image-5]] [web5] | 
 
 ### References
 
