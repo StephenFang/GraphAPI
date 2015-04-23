@@ -20,6 +20,9 @@ Neighbors are the cubes located above, below, at left or at right, but not diago
 If a move leaves a neighbor with a maximum number of points, the move continues automatically to the neighbor's neighbors and so on, in a cascade. A large number of cubes can change ownership during such a move.
 The winner is the player who ends up owning all the cubes.
 You can use settings to select board size, computer players and players' colors. You can also pit one computer player against another and watch the outcome.
+
+
+
 References
 
 https://games.kde.org/game.php?game=kjumpingcube
